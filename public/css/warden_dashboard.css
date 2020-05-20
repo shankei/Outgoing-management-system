@@ -1,0 +1,158 @@
+/*Request Inbox*/
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+label,
+textarea,
+button[type="submit"] {
+font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="url"]:hover,
+textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+
+textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+
+ 
+.no-bullets {
+  list-style-type: none;
+}
+
+#requestbox * {
+  box-sizing: border-box;
+}
+
+#requestbox body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float three columns side by side */
+#requestbox .column {
+  float: left;
+  width: 33.3333%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+#requestbox .row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+#requestbox .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  #requestbox .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+#requestbox .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+  width: 70%;
+}
+
+
+/*Dashboard and sidebar*/
+body {
+  overflow-x: hidden;
+}
+
+#header{
+  height: 70px;
+  width: auto;
+  border-bottom: 1px solid black;
+}
+#logo{
+
+}
+#IIIT-B_logo{
+  height: 70px;
+  width: auto;
+  border-bottom: 1px solid black;
+}
+
+#heading{
+
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}

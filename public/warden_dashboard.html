@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Warden Login</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/warden_dashboard.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="header">
+    <div id="logo"><img id="IIIT-B_logo" src="images/IIIT-B_logo.jpg"></div>
+    <span id="heading">OUTGOING MANAGEMENT PORTAL</span>
+  </div>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">MENU </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('homepage')">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('requestbox')">Request Inbox</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               WARDEN
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+               
+                <a class="dropdown-item" href="#" onclick="my_signout()">Signout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid" id="homepage" style="display: block">
+        <h1 class="mt-4">Welcome Warden</h1>
+        <p>The International Institute of Information Technology, Bangalore (IIIT Bangalore or simply IIITB) is a university in the de-novo category recognized under Section 3 of the University Grants Commission Act. The university was established in 1999 jointly by the Government of Karnataka and the information technology industry. It offers Integrated M.Tech., M.Tech., M Sc (Digital Sociery), M.S. (Research) and PhD programs in the field of information technology.</p>
+      </div>
+
+      <div class="container-fluid" id="requestbox" style="display: none">
+        <h2>Leave Request Column Cards</h2>
+        <p>Click on Accept/Reject...</p>
+
+        <div class="row" id="showRequest">
+          
+
+
+        </div>
+      </div>
+      
+
+
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!--===============================================================================================-->
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="vendor/jquery/jquery-1.12.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/warden.js"></script>
+  
+<!--===============================================================================================-->
+  <!-- Menu Toggle Script -->
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Guard Login</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/guard_dashboard.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="header">
+    <div id="logo"><img id="IIIT-B_logo" src="images/IIIT-B_logo.jpg"></div>
+    <span id="heading">OUTGOING MANAGEMENT PORTAL</span>
+  </div>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">MENU </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('homepage')">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('inout')">Incoming-Outgoing</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('leave_outpass')">Outpass for Leave</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('visitor_search')">Visitors and Parking</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              GUARD
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item" href="#" onclick="my_signout()">Signout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!-- HOMEPAGE SECTION -->
+      <div class="container-fluid" id="homepage" style="display: block">
+        <h1 class="mt-4">Simple Sidebar</h1>
+        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+      </div>
+
+
+      <!-- INCOMING OUTGOING SECTION -->
+      <div class="col-md-6" id="inout" style="display: none">
+        <div class="input-group mb-3">
+        <input type="text" class="form-control" id="entry" placeholder="Enter Roll Number">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="submit" onclick="showdetails('show_details')">Go</button> 
+         </div>
+      </div>
+      </div>
+
+    <div class="col-md-6">
+      <div class="collapse multi-collapse" id="stud_details">
+        
+      </div>
+    </div>
+
+
+    <!-- OUTPASS FOR LEAVE SECTION -->
+    <div class="col-md-6" id="leave_outpass" style="display: none">
+        <div class="input-group mb-3">
+        <input type="text" class="form-control" id="enter_roll" placeholder="Enter Roll Number for Leave Home">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="submit" data-toggle="modal" onclick="disable_back()">Go</button> 
+         </div>
+      </div>
+      </div>
+
+     <!-- Modal -->
+      <div class="modal fade" id="leave_details" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="display: none">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Leave Outpass</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="form-row">
+                <input class="lg-6" type="text" id="roll" name="roll" placeholder="Roll Number" disabled="">
+                <input class="lg-6" type="text" id="name" name="name" placeholder="Name" disabled="">
+              </div>
+              <div class="form-row">
+                <input class="lg-6" type="text" id="Hostel" name="Hostel" placeholder="Hostel" disabled="">
+                <input class="lg-6" type="text" id="Room" name="Room" placeholder="Room Number" disabled="">
+              </div>
+              <div class="form-row">
+                <input class="lg-6" type="text" id="ticket" name="ticket" placeholder="Ticket Number" disabled="">
+                <input class="lg-6" type="text" name="mode" id="mode" placeholder="Mode of Travel" disabled="">
+              </div>
+              <div class="form-row">
+                <input class="lg-6" type="text" name="destination" id="destination" placeholder="Destination" disabled="">
+                 <input class="lg-6" type="text" name="warden_status" id="warden_status" placeholder="Warden status" disabled="">
+              </div>
+              <div class="form-row">
+                <input class="lg-6" type="Date" name="date" id="date" placeholder="Date" disabled="">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" id="dep_button" data-dismiss="modal">Departure</button>
+              <button type="button" class="btn btn-warning" id="ret_button" data-dismiss="modal">Return</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- VISITOR/PARKING -->
+      <div class="col-md-6" id="visitor_search" style="display: none">
+        <div class="input-group mb-3">
+        <input type="text" class="form-control" id="entry" placeholder="Enter ID">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="submit" onclick="showvisitorform('visitor_form')">Go</button> 
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" id="visitor_form" style="display: none">
+        <form id="contact" action="request_leave" method="post">
+        <h3>Visitor Details</h3>
+        <h4>Kindly fill the visitor form</h4>
+        <fieldset>
+          <label for="visitor_name">Name :</label>
+          <input placeholder="Name:" type="text" tabindex="1" name="visitor_name" required autofocus >
+        </fieldset>
+        <fieldset>
+          <label for="visitorphn">Contact No. :</label>
+          <input placeholder="Visitor's Contact :" type="text" tabindex="2" id="visitorphn" name="visitorphn" required autofocus>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Reason :" tabindex="3" id="rsn" name="rsn"></textarea>
+        </fieldset>
+        
+        <label for="chkVehicle">Vehicle Entry :</label>
+        <input type="checkbox" id="chkVehicle" onclick="ShowHideDiv(this)" />
+            
+        <div id="dvVehicle" style="display: none">
+            <label for="txtVehicleNumber">Vehicle  Number :</label>
+            <input type="text" id="txtVehicleNumber" required autofocus />
+             <label for="txtParkSlot">Parking Slot :</label>
+            <input type="text" id="txtParkSlot" disabled required autofocus />
+        </div>
+
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+        </form>
+      </div>
+
+      
+
+
+
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+
+
+
+  <!--===============================================================================================-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="vendor/jquery/jquery-1.12.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <!-- Link to the js code file  -->
+  <script type="text/javascript" src="js/guard.js"></script>
+  <!--===============================================================================================-->
+  <script type="text/javascript">
+    function ShowHideDiv(chkVehicle) {
+        var dvVehicle = document.getElementById("dvVehicle");
+        dvVehicle.style.display = chkVehicle.checked ? "block" : "none";
+    }
+  </script>
+
+</body>
+
+</html>

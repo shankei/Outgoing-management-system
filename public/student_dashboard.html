@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <script type = "text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Student Login</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/student_dashboard.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="header">
+    <img id="logo" src="images/IIIT-B_logo.jpg">
+    <span id="heading">OUTGOING MANAGEMENT PORTAL</span>
+  </div>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">MENU </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('homepage')">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('leaveform')">Request for Leave</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('shareloc')">Share Location</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                User
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" onclick="showup('existing_profile')">Profile</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" onclick="my_signout()">Signout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid" id="homepage" style="display: block">
+        <h1 class="mt-4">WELCOME TO STUDENT DASHBOARD</h1>
+        <p>The International Institute of Information Technology, Bangalore (IIIT Bangalore or simply IIITB) is a university in the de-novo category recognized under Section 3 of the University Grants Commission Act. The university was established in 1999 jointly by the Government of Karnataka and the information technology industry. It offers Integrated M.Tech., M.Tech., M Sc (Digital Sociery), M.S. (Research) and PhD programs in the field of information technology.</p>
+      </div>
+
+       <div class="container-fluid" id="leaveform" style="display: none">
+        <form id="contact" action="request_leave" method="post">
+        <h3>Request Leave</h3>
+        <h4>Kindly fill the leave request form</h4>
+
+        <div class="form-row">
+        <div class="lg-6 col">
+          <label for="roll">Roll NUmber:</label>
+          <input placeholder="Roll number :" type="text" tabindex="1" id="roll" name="roll" required autofocus >
+        </div>
+        <div class="lg-6 col">
+          <label for="stud_name">Name:</label>
+          <input placeholder="Name:" type="text" tabindex="2" id="stud_name" name="stud_name" required autofocus >
+        </div>
+        </div>
+
+        <div class="form-row">
+        <div class="lg-6 col">
+          <label for="stud_hostel">Hostel:</label>
+          <input placeholder="Hostel:" type="text" tabindex="3" id="stud_hostel" name="stud_hostel" required autofocus >
+        </div>
+        <div class="lg-6 col">
+          <label for="stud_room">Room Number:</label>
+          <input placeholder="Room Number:" type="text" tabindex="4" id="stud_room" name="stud_room" required autofocus >
+        </div>
+        </div>
+
+
+        <div class="form-row">
+        <div class="lg-6 col">
+          <label for="stud_tkt">Ticket Number:</label>
+          <input placeholder="Ticket Number:" type="text" tabindex="5" id="stud_tkt" name="stud_tkt" required autofocus >
+        </div>
+        <div class="lg-6 col">
+          <label for="stud_mod">Mode of Travel:</label>
+          <input placeholder="Mode of Travel:" type="text" tabindex="6" id="stud_mod" name="stud_mod" required autofocus >
+        </div>
+        </div>
+
+        <div class="form-row">
+        <div class="lg-6 col">
+          <label for="stud_dest">Destination:</label>
+          <input placeholder="Destination:" type="text" tabindex="7" id="stud_dest" name="stud_dest" required autofocus >
+        </div>
+        <div class="lg-6 col">
+          <label for="gdnphn">Guardian's contact:</label>
+          <input placeholder="Guardian's Contact :" type="text" tabindex="8" id="gdnphn" name="gdnphn" required autofocus>
+        </div>
+        </div>
+
+        <fieldset>
+          <label for="depdate">Departure date from college:</label>
+          <input type="date" id="depdate" name="depdate" value="yyyy-mm-dd" min="2020-01-01" max="2030-12-31">
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Reason for leave :" tabindex="9" id="rsn" name="rsn"></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
+        </fieldset>
+        </form>
+      </div>
+
+      <div class="container-fluid" id="shareloc" style="display: none">
+        <h3>Share Location</h3> 
+          <div id="map"></div> 
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send Location</button>
+      </div>
+
+
+          <div class="container" id="existing_profile" style="display: none;">
+
+          </div>
+
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!--===============================================================================================-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="vendor/jquery/jquery-1.12.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="js/student.js"></script>
+<!--===============================================================================================-->
+  <!-- Menu Toggle Script -->
+  
+<script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=
+      AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initMap">
+</script>
+
+
+</body>
+
+</html>

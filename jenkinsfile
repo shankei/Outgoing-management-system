@@ -1,0 +1,55 @@
+pipeline {
+  environment {
+    registry ="m0hitbansal/outgoing-webapp"
+    registryCredential ='docker-hub-credentials'         // docker hub credential, stored in credential part
+    dockerImage = ''
+    dockerImageLatest = ''
+  }
+  agent any
+  stages {
+    stage('Cloning Git') {
+      steps {
+        git 'https://github.com/m0hitbansal/Outgoing-Managment-Portal.git'
+      }
+    }
+    stage('Test application'){
+        steps {
+             sh 'mocha --exit'
+        }
+    }
+    stage('Building image') {
+      steps{
+        script {
+          dockerImageLatest = docker.build registry + ":latest"
+        }
+      }
+    }
+    stage('Deploy Image') {
+      steps{
+        script {
+          docker.withRegistry( '', registryCredential ) {
+            dockerImageLatest.push()
+          }
+        }
+      }
+    }
+    stage('Remove Unused docker image') {
+      steps{
+        sh "docker rmi $registry:latest"
+      }
+    }
+    stage('Execute Rundeck job') {
+        steps {
+          script {
+            step([$class: "RundeckNotifier",
+                  includeRundeckLogs: true,
+                  jobId: "8eb64841-d14e-4c86-9a7e-a3ea08dfd0cd",
+                  rundeckInstance: "Rundeck Outgoing",
+                  shouldFailTheBuild: true,
+                  shouldWaitForRundeckJob: true,
+                  tailLog: true])
+          }
+        }
+    }
+  }
+}
