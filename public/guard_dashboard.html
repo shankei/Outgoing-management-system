@@ -21,7 +21,7 @@
 <body>
 
   <div id="header">
-    <div id="logo"><img id="IIIT-B_logo" src="images/IIIT-B_logo.jpg"></div>
+    <img id="logo" src="images/IIIT-B_logo.jpg">
     <span id="heading">OUTGOING MANAGEMENT PORTAL</span>
   </div>
 
@@ -34,7 +34,7 @@
         <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('homepage')">Dashboard</a>
         <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('inout')">Incoming-Outgoing</a>
         <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('leave_outpass')">Outpass for Leave</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="showup('visitor_search')">Visitors and Parking</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light" onclick="vistior_park('visitor_search')">Visitors and Parking</a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -142,26 +142,29 @@
 
 
       <!-- VISITOR/PARKING -->
-      <div class="col-md-6" id="visitor_search" style="display: none">
+    <div   id="visitor_search" style="display: none">
+      <div class="col-md-6" >
+        <h3>Visitor Exit</h3>
         <div class="input-group mb-3">
-        <input type="text" class="form-control" id="entry" placeholder="Enter ID">
+        <input type="text" class="form-control" id="visitorid" placeholder="Enter ID like visitor_xx">
           <div class="input-group-append">
-            <button class="btn btn-success" type="submit" onclick="showvisitorform('visitor_form')">Go</button> 
+            <button class="btn btn-success" type="submit" onclick="visitor_exit()"> Exit
+            </button> 
           </div>
         </div>
       </div>
 
-      <div class="container-fluid" id="visitor_form" style="display: none">
-        <form id="contact" action="request_leave" method="post">
+      <div class="container-fluid" >
+        <form id="contact" >
         <h3>Visitor Details</h3>
         <h4>Kindly fill the visitor form</h4>
         <fieldset>
           <label for="visitor_name">Name :</label>
-          <input placeholder="Name:" type="text" tabindex="1" name="visitor_name" required autofocus >
+          <input placeholder="Name:" type="text" tabindex="1" id="visitorname" name="visitor_name" required autofocus >
         </fieldset>
         <fieldset>
-          <label for="visitorphn">Contact No. :</label>
-          <input placeholder="Visitor's Contact :" type="text" tabindex="2" id="visitorphn" name="visitorphn" required autofocus>
+          <label for="visitorphn">Email Id. :</label>
+          <input placeholder="Visitor's Contact :" type="text" tabindex="2" id="visitoremail" name="visitorphn" required autofocus>
         </fieldset>
         <fieldset>
           <textarea placeholder="Reason :" tabindex="3" id="rsn" name="rsn"></textarea>
@@ -172,17 +175,17 @@
             
         <div id="dvVehicle" style="display: none">
             <label for="txtVehicleNumber">Vehicle  Number :</label>
-            <input type="text" id="txtVehicleNumber" required autofocus />
+            <input type="text" id="txtVehicleNumber"  autofocus />
              <label for="txtParkSlot">Parking Slot :</label>
-            <input type="text" id="txtParkSlot" disabled required autofocus />
+            <input type="text" id="txtParkSlot" disabled  autofocus />
         </div>
 
         <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          <button name="submit" type="button"  id="contact-submit" onclick="visitor_entry()" data-submit="...Sending">Enter</button>
         </fieldset>
         </form>
       </div>
-
+    </div>  
       
 
 

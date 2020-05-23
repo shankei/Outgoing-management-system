@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    registry ="m0hitbansal/outgoing-webapp"
-    registryCredential ='docker-hub-credentials'         // docker hub credential, stored in credential part
+    registry ="shashankagarwal2310/outgoing-webapp"
+    registryCredential ='docker-hub'         // docker hub credential, stored in credential part
     dockerImage = ''
     dockerImageLatest = ''
   }
@@ -9,22 +9,22 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/m0hitbansal/Outgoing-Managment-Portal.git'
+        git 'https://github.com/shankei/Outgoing-management-system.git'
       }
     }
     stage('Test application'){
         steps {
-             sh 'mocha --exit'
+             sh 'mocha --exit' // run test file on local system using shell command
         }
     }
     stage('Building image') {
       steps{
         script {
-          dockerImageLatest = docker.build registry + ":latest"
+          dockerImageLatest = docker.build registry + ":latest" // build image of web-app cloned from git 
         }
       }
     }
-    stage('Deploy Image') {
+    stage('Deploy Image') { // push image of web-app on docker hub
       steps{
         script {
           docker.withRegistry( '', registryCredential ) {
@@ -33,18 +33,18 @@ pipeline {
         }
       }
     }
-    stage('Remove Unused docker image') {
+    stage('Remove Unused docker image') { // remove image from system so that no 2 images are created of same type
       steps{
         sh "docker rmi $registry:latest"
       }
     }
-    stage('Execute Rundeck job') {
+    stage('Execute Rundeck job') { // pull image on local system from docker hub 
         steps {
           script {
             step([$class: "RundeckNotifier",
                   includeRundeckLogs: true,
                   jobId: "8eb64841-d14e-4c86-9a7e-a3ea08dfd0cd",
-                  rundeckInstance: "Rundeck Outgoing",
+                  rundeckInstance: "Rundeck-outgoing-portal",
                   shouldFailTheBuild: true,
                   shouldWaitForRundeckJob: true,
                   tailLog: true])

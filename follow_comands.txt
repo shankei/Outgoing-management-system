@@ -21,3 +21,7 @@ open terminal in main folder
 type
 * mocha --exit
 
+
+update database container on docker hub
+*docker commit websql m0hitbansal/outgoing-sql
+* docker push m0hitbansal/outgoing-sql

@@ -165,6 +165,10 @@ body {
   width: auto;
   border-bottom: 1px solid black;
 }
+#heading{
+  display: inline-flex;
+  margin-left: 35%
+}
 
 #sidebar-wrapper {
   min-height: 100vh;

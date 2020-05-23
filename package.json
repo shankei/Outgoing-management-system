@@ -1,0 +1,41 @@
+{
+  "name": "outgoing-management-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mocha": "^7.1.2",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "winston": "^3.2.1",
+    "winston-elasticsearch": "^0.8.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankei/Outgoing-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shankei/Outgoing-management-system/issues"
+  },
+  "homepage": "https://github.com/shankei/Outgoing-management-system#readme"
+}

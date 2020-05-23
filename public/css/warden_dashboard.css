@@ -104,16 +104,13 @@ body {
   border-bottom: 1px solid black;
 }
 #logo{
-
-}
-#IIIT-B_logo{
   height: 70px;
   width: auto;
   border-bottom: 1px solid black;
 }
-
 #heading{
-
+  display: inline-flex;
+  margin-left: 35%
 }
 
 #sidebar-wrapper {
