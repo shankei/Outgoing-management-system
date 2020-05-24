@@ -1,11 +1,11 @@
 * first open terminal
 * su
 * password
-* docker pull m0hitbansal/outgoing-sql
-* docker pull m0hitbansal/outgoing-webapp
-* docker run -it --name websql -d m0hitbansal/outgoing-sql
+* docker pull shashankagarwal2310/outgoing-websql
+* docker pull shashankagarwal2310/outgoing-webapp
+* docker run -it --name websql -d shashankagarwal2310/outgoing-websql
 take 60 second gap
-* docker run --link websql:db -e DATABASE_HOST=db --name webapp -p 5555:5555 m0hitbansal/outgoing-webapp
+* docker run --link websql:db -e DATABASE_HOST=db --name webapp -p 5555:5555 shashankagarwal2310/outgoing-webapp
 
 To stop docker container
  * docker stop webapp
@@ -14,7 +14,7 @@ To remove container
 * docker rm webapp
  * docker rm websql
 to build new image
-* docker build -t m0hitbansal/outgoing-webapp .
+* docker build -t shashankagarwal2310/outgoing-webapp .
 
 for run application test file
 open terminal in main folder 
@@ -23,5 +23,9 @@ type
 
 
 update database container on docker hub
-*docker commit websql m0hitbansal/outgoing-sql
-* docker push m0hitbansal/outgoing-sql
+*docker commit websql shashankagarwal2310/outgoing-sql
+* docker push shashankagarwal2310/outgoing-websql
+
+if you want to go inside webapp container
+* docker exce -it webapp /bin/bash
+

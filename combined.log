@@ -1,0 +1,154 @@
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-22T05:34:32.832Z"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Mohit.Bansal@iiitb.org"},"level":"info","timestamp":"2020-05-22T05:34:32.843Z"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-22T05:34:33.393Z"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-22T05:34:33.395Z"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-22 11:07:51"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Guard login"},"level":"info","timestamp":"2020-05-22 11:07:51"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-22 11:22:19"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019100 is local out"},"level":"info","timestamp":"2020-05-22 11:22:19"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 09:55:00"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Mohit.Bansal@iiitb.org"},"level":"info","timestamp":"2020-05-23 09:55:00"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 09:55:01"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 09:55:01"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 10:40:52"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Guard login"},"level":"info","timestamp":"2020-05-23 10:40:52"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 10:43:10"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Guard login"},"level":"info","timestamp":"2020-05-23 10:43:10"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 10:43:21"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-23 10:43:21"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 10:43:35"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019026 is local out"},"level":"info","timestamp":"2020-05-23 10:43:35"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:04:15"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Mohit.Bansal@iiitb.org"},"level":"info","timestamp":"2020-05-23 12:04:15"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:04:16"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 12:04:16"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:04:43"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-23 12:04:43"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:04:43"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 12:04:43"}
+{"message":{"index":{"index":"Outgoing","_id":5},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:05:25"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login archit.semwal@iiitb.org"},"level":"info","timestamp":"2020-05-23 12:05:25"}
+{"message":{"index":{"index":"Outgoing","_id":6},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:05:26"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofarchit semwal"},"level":"info","timestamp":"2020-05-23 12:05:26"}
+{"message":{"index":{"index":"Outgoing","_id":7},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:05:40"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-23 12:05:40"}
+{"message":{"index":{"index":"Outgoing","_id":8},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:05:41"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofarchit semwal"},"level":"info","timestamp":"2020-05-23 12:05:41"}
+{"message":{"index":{"index":"Outgoing","_id":9},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:05:55"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 12:05:55"}
+{"message":{"index":{"index":"Outgoing","_id":10},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:05:56"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 12:05:56"}
+{"message":{"index":{"index":"Outgoing","_id":11},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:06:05"}
+{"message":{"type":"api-call","call_name":"/allow_leave","method":"POST","text_entry":"Leave grnated by warden"},"level":"info","timestamp":"2020-05-23 12:06:05"}
+{"message":{"index":{"index":"Outgoing","_id":12},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:10:39"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Guard login"},"level":"info","timestamp":"2020-05-23 12:10:39"}
+{"message":{"index":{"index":"Outgoing","_id":13},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:10:52"}
+{"message":{"type":"api-call","call_name":"/Guard_fetch_leave","method":"POST","text_entry":"Guard fetch leave details ofundefined"},"level":"info","timestamp":"2020-05-23 12:10:52"}
+{"message":{"index":{"index":"Outgoing","_id":14},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:10:56"}
+{"message":{"type":"api-call","call_name":"/home_checkout","method":"POST","text_entry":"mohit bansal is home out"},"level":"info","timestamp":"2020-05-23 12:10:56"}
+{"message":{"index":{"index":"Outgoing","_id":15},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:11:32"}
+{"message":{"type":"api-call","call_name":"/Guard_fetch_leave","method":"POST","text_entry":"Guard fetch leave details ofundefined"},"level":"info","timestamp":"2020-05-23 12:11:32"}
+{"message":{"index":{"index":"Outgoing","_id":16},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:11:33"}
+{"message":{"type":"api-call","call_name":"/home_checkin","method":"POST","text_entry":"mohit bansal is home in"},"level":"info","timestamp":"2020-05-23 12:11:33"}
+{"message":{"index":{"index":"Outgoing","_id":17},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:12:07"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 12:12:07"}
+{"message":{"index":{"index":"Outgoing","_id":18},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:12:08"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 12:12:08"}
+{"message":{"index":{"index":"Outgoing","_id":19},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:12:16"}
+{"message":{"type":"api-call","call_name":"/allow_leave","method":"POST","text_entry":"Leave rejected by warden"},"level":"info","timestamp":"2020-05-23 12:12:16"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:26:45"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Mohit.Bansal@iiitb.org"},"level":"info","timestamp":"2020-05-23 12:26:45"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:26:45"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 12:26:45"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:27:00"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 12:27:00"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 12:27:00"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 12:27:00"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:20:32"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Mohit.Bansal@iiitb.org"},"level":"info","timestamp":"2020-05-23 15:20:32"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:20:33"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 15:20:33"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:20:49"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-23 15:20:49"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:20:49"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 15:20:49"}
+{"message":{"index":{"index":"Outgoing","_id":5},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:20:58"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 15:20:58"}
+{"message":{"index":{"index":"Outgoing","_id":6},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:20:59"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 15:20:59"}
+{"message":{"index":{"index":"Outgoing","_id":7},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:24:45"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 15:24:45"}
+{"message":{"index":{"index":"Outgoing","_id":8},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:24:46"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 15:24:46"}
+{"message":{"index":{"index":"Outgoing","_id":9},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:26:29"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 15:26:29"}
+{"message":{"index":{"index":"Outgoing","_id":10},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:26:30"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 15:26:30"}
+{"message":{"index":{"index":"Outgoing","_id":11},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:29:24"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 15:29:24"}
+{"message":{"index":{"index":"Outgoing","_id":12},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:29:24"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 15:29:24"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:36:10"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Mohit.Bansal@iiitb.org"},"level":"info","timestamp":"2020-05-23 15:36:10"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:36:11"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 15:36:11"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:36:42"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 15:36:42"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:36:43"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 15:36:43"}
+{"message":{"index":{"index":"Outgoing","_id":5},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:36:48"}
+{"message":{"type":"api-call","call_name":"/allow_leave","method":"POST","text_entry":"Leave grnated by warden"},"level":"info","timestamp":"2020-05-23 15:36:48"}
+{"message":{"index":{"index":"Outgoing","_id":6},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:37:18"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-23 15:37:18"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:41:00"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-23 15:41:00"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:42:23"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Mohit.Bansal@iiitb.org"},"level":"info","timestamp":"2020-05-23 15:42:23"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:42:23"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 15:42:23"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:42:40"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-23 15:42:40"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:42:40"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofmohit bansal"},"level":"info","timestamp":"2020-05-23 15:42:40"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:43:53"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login archit.semwal@iiitb.org"},"level":"info","timestamp":"2020-05-23 15:43:53"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:43:54"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofarchit semwal"},"level":"info","timestamp":"2020-05-23 15:43:54"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:44:10"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-23 15:44:10"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:44:11"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofarchit semwal"},"level":"info","timestamp":"2020-05-23 15:44:11"}
+{"message":{"index":{"index":"Outgoing","_id":5},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:44:23"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-23 15:44:23"}
+{"message":{"index":{"index":"Outgoing","_id":6},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 15:44:24"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-23 15:44:24"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 16:04:02"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-23 16:04:02"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 16:04:02"}
+{"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"undefined is local in"},"level":"info","timestamp":"2020-05-23 16:04:02"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 20:36:28"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Guard login"},"level":"info","timestamp":"2020-05-23 20:36:28"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 20:36:48"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-23 20:36:48"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 20:37:01"}
+{"message":{"type":"api-call","call_name":"/Guard_fetch_leave","method":"POST","text_entry":"Guard fetch leave details ofundefined"},"level":"info","timestamp":"2020-05-23 20:37:01"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 20:37:06"}
+{"message":{"type":"api-call","call_name":"/home_checkout","method":"POST","text_entry":"mohit bansal is home out"},"level":"info","timestamp":"2020-05-23 20:37:06"}
+{"message":{"index":{"index":"Outgoing","_id":5},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 20:52:45"}
+{"message":{"type":"api-call","call_name":"/Guard_fetch_leave","method":"POST","text_entry":"Guard fetch leave details ofundefined"},"level":"info","timestamp":"2020-05-23 20:52:45"}
+{"message":{"index":{"index":"Outgoing","_id":6},"level":"info","message":""},"level":"info","timestamp":"2020-05-23 20:52:47"}
+{"message":{"type":"api-call","call_name":"/home_checkin","method":"POST","text_entry":"mohit bansal is home in"},"level":"info","timestamp":"2020-05-23 20:52:47"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 13:56:28"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-24 13:56:28"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 13:56:29"}
+{"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"undefined is local in"},"level":"info","timestamp":"2020-05-24 13:56:29"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 14:21:28"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-24 14:21:29"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 14:21:29"}
+{"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"undefined is local in"},"level":"info","timestamp":"2020-05-24 14:21:29"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 14:30:30"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Guard login"},"level":"info","timestamp":"2020-05-24 14:30:30"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 14:30:46"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-24 14:30:46"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 14:30:52"}
+{"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"undefined is local in"},"level":"info","timestamp":"2020-05-24 14:30:52"}

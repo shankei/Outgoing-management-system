@@ -1,5 +1,5 @@
 {
-  "name": "outgoing-management-portal",
+  "name": "outgoing-management-system",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -21,16 +21,16 @@
     "nodemon": "^2.0.4",
     "request": "^2.88.2",
     "winston": "^3.2.1",
-    "winston-elasticsearch": "^0.8.8"
+    "winston-elasticsearch": "^0.7.12"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --exit",
     "start": "node server2.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shankei/Outgoing-management-system.git"
+    "url": "git+https://github.com/shankei/Outgoing-management-system"
   },
   "author": "",
   "license": "ISC",

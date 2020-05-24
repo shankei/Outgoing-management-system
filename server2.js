@@ -12,7 +12,6 @@ const multer = require('multer');
 app.use(express.static(path.join(__dirname, 'public')))
 let cron = require('node-cron');
 let nodemailer = require('nodemailer');
-const Nexmo = require('nexmo');
 var parking_array = new Array(51).fill(0);
 var id = 0;
 var no_students='\n';
@@ -244,7 +243,7 @@ app.post('/checkleave',function(req,res){
 // Apply leave for this student
 app.post('/request_leave', function (req, res) {
 	console.log('Inside request leave');
-	var roll_number=req.body.roll;
+	var roll_number=sess.roll_no;
 	var parent=req.body.gdnphn;
 	var depart=new Date(req.body.depdate);
 	depart= depart.toISOString().split('T')[0] + ' '  
@@ -397,7 +396,7 @@ app.post('/localcheckin', function (req, res) {
 			res.end(err);
 		} 
 		else {
-			logstore('/localcheckin','POST',req.body.roll+' is local in');
+			logstore('/localcheckin','POST',sess.roll_no+' is local in');
 			res.send("done");
 		}
 	});
@@ -425,7 +424,7 @@ app.post('/Guard_fetch_leave', function (req, res) {
 					}
 					else{
 						if(result1.length>0){
-							logstore('/Guard_fetch_leave','POST','Guard fetch leave details of'+req.body.rolls);
+							logstore('/Guard_fetch_leave','POST','Guard fetch leave details of'+req.body.rollno);
 							res.send(result1);
 						}
 						else{
@@ -610,7 +609,7 @@ app.post('/visitorexit', function (req, res) {
     	}  
 	});                    	
 });
-
+//const Nexmo = require('nexmo');
 // function sendsms(text,number){
 // 	const nexmo = new Nexmo({
 // 	  apiKey: 'd2493ae3',
@@ -671,7 +670,7 @@ const logger = winston.createLogger({
     // - Write all logs with level `error` and below to `error.log`
     // - Write all logs with level `info` and below to `combined.log`
     new winston.transports.File({ filename: 'combined.log' }),
-   // new Elasticsearch(esTransportOpts)
+    new Elasticsearch(esTransportOpts)
   ]
 });
 

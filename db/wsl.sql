@@ -60,13 +60,15 @@ ON DELETE CASCADE
 )ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
 
 
-CREATE TABLE IF NOT EXISTS Parking(
+CREATE TABLE IF NOT EXISTS Visitor(
 id int(200) NOT NULL AUTO_INCREMENT,
+visitor_id varchar(255) NOT NULL,
 name varchar(255) NOT NULL,
+email varchar(255),
+parking_no int(255) ,
+vehicle_no varchar(200),
+reason varchar(3000),
 entry_time DATETIME,
 exit_time DATETIME,
-
-parking_no int(255) NOT NULL,
-vehicle_no varchar(200) NOT NULL,
 PRIMARY KEY (id)
 )ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;

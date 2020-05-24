@@ -14,7 +14,9 @@ pipeline {
     }
     stage('Test application'){
         steps {
-             sh 'mocha --exit' // run test file on local system using shell command
+             sh 'npm install'
+             sh 'npm test'
+				 // run test file on local system using shell command
         }
     }
     stage('Building image') {

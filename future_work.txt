@@ -1,5 +1,0 @@
-1) warden can find list of students on leave for a specific date.
-	warden when login can see students on leave on that day he logged in.
-2) student can see status of his leave request.
-3) student can see past reocrds of his leave.
-4) 
