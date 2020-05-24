@@ -396,7 +396,7 @@ app.post('/localcheckin', function (req, res) {
 			res.end(err);
 		} 
 		else {
-			logstore('/localcheckin','POST',sess.roll_no+' is local in');
+			logstore('/localcheckin','POST',req.body.id+' is local in');
 			res.send("done");
 		}
 	});

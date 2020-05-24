@@ -13,7 +13,7 @@
     - description: shell file for run
       script: |
         #!/bin/bash
-	docker stop  $(docker ps -aq)
+        docker stop  $(docker ps -aq)
         docker rm  $(docker ps -aq)
         docker rmi -f shashankagarwal2310/outgoing-webapp
         docker pull shashankagarwal2310/outgoing-websql

@@ -152,3 +152,53 @@
 {"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-24 14:30:46"}
 {"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 14:30:52"}
 {"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"undefined is local in"},"level":"info","timestamp":"2020-05-24 14:30:52"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:50:07"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-24 15:50:07"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:53:06"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-24 15:53:06"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:53:06"}
+{"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"3 is local in"},"level":"info","timestamp":"2020-05-24 15:53:06"}
+{"message":{"index":{"index":"Outgoing","_id":1},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:55:51"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Shashank.Agarwal@iiitb.org"},"level":"info","timestamp":"2020-05-24 15:55:51"}
+{"message":{"index":{"index":"Outgoing","_id":2},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:55:52"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofshashank agarwal"},"level":"info","timestamp":"2020-05-24 15:55:52"}
+{"message":{"index":{"index":"Outgoing","_id":3},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:56:16"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-24 15:56:16"}
+{"message":{"index":{"index":"Outgoing","_id":4},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:56:17"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-24 15:56:17"}
+{"message":{"index":{"index":"Outgoing","_id":5},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:56:28"}
+{"message":{"type":"api-call","call_name":"/allow_leave","method":"POST","text_entry":"Leave rejected by warden"},"level":"info","timestamp":"2020-05-24 15:56:28"}
+{"message":{"index":{"index":"Outgoing","_id":6},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:56:32"}
+{"message":{"type":"api-call","call_name":"/allow_leave","method":"POST","text_entry":"Leave rejected by warden"},"level":"info","timestamp":"2020-05-24 15:56:32"}
+{"message":{"index":{"index":"Outgoing","_id":7},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:56:41"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Student login Shashank.Agarwal@iiitb.org"},"level":"info","timestamp":"2020-05-24 15:56:41"}
+{"message":{"index":{"index":"Outgoing","_id":8},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:56:41"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofshashank agarwal"},"level":"info","timestamp":"2020-05-24 15:56:41"}
+{"message":{"index":{"index":"Outgoing","_id":9},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:57:18"}
+{"message":{"type":"api-call","call_name":"/request_leave","method":"POST","text_entry":"Insert Leave application in database"},"level":"info","timestamp":"2020-05-24 15:57:18"}
+{"message":{"index":{"index":"Outgoing","_id":10},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:57:18"}
+{"message":{"type":"api-call","call_name":"/getdetails","method":"GET","text_entry":"Get student details ofshashank agarwal"},"level":"info","timestamp":"2020-05-24 15:57:18"}
+{"message":{"index":{"index":"Outgoing","_id":11},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:57:30"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"warden login"},"level":"info","timestamp":"2020-05-24 15:57:30"}
+{"message":{"index":{"index":"Outgoing","_id":12},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:57:30"}
+{"message":{"type":"api-call","call_name":"/getLeaves","method":"GET","text_entry":"Fetch all leaves which status is 0"},"level":"info","timestamp":"2020-05-24 15:57:30"}
+{"message":{"index":{"index":"Outgoing","_id":13},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:57:51"}
+{"message":{"type":"api-call","call_name":"/allow_leave","method":"POST","text_entry":"Leave grnated by warden"},"level":"info","timestamp":"2020-05-24 15:57:51"}
+{"message":{"index":{"index":"Outgoing","_id":14},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:01"}
+{"message":{"type":"api-call","call_name":"/checkrole","method":"POST","text_entry":"Guard login"},"level":"info","timestamp":"2020-05-24 15:58:01"}
+{"message":{"index":{"index":"Outgoing","_id":15},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:13"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019048 is local out"},"level":"info","timestamp":"2020-05-24 15:58:13"}
+{"message":{"index":{"index":"Outgoing","_id":16},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:23"}
+{"message":{"type":"api-call","call_name":"/localcheckout","method":"POST","text_entry":"MT2019026 is local out"},"level":"info","timestamp":"2020-05-24 15:58:23"}
+{"message":{"index":{"index":"Outgoing","_id":17},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:30"}
+{"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"4 is local in"},"level":"info","timestamp":"2020-05-24 15:58:30"}
+{"message":{"index":{"index":"Outgoing","_id":18},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:36"}
+{"message":{"type":"api-call","call_name":"/localcheckin","method":"POST","text_entry":"5 is local in"},"level":"info","timestamp":"2020-05-24 15:58:36"}
+{"message":{"index":{"index":"Outgoing","_id":19},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:42"}
+{"message":{"type":"api-call","call_name":"/Guard_fetch_leave","method":"POST","text_entry":"Guard fetch leave details ofMT2019100"},"level":"info","timestamp":"2020-05-24 15:58:42"}
+{"message":{"index":{"index":"Outgoing","_id":20},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:45"}
+{"message":{"type":"api-call","call_name":"/home_checkout","method":"POST","text_entry":"shashank agarwal is home out"},"level":"info","timestamp":"2020-05-24 15:58:45"}
+{"message":{"index":{"index":"Outgoing","_id":21},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:50"}
+{"message":{"type":"api-call","call_name":"/Guard_fetch_leave","method":"POST","text_entry":"Guard fetch leave details ofMT2019100"},"level":"info","timestamp":"2020-05-24 15:58:50"}
+{"message":{"index":{"index":"Outgoing","_id":22},"level":"info","message":""},"level":"info","timestamp":"2020-05-24 15:58:55"}
+{"message":{"type":"api-call","call_name":"/home_checkin","method":"POST","text_entry":"shashank agarwal is home in"},"level":"info","timestamp":"2020-05-24 15:58:55"}
