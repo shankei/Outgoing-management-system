@@ -37,7 +37,7 @@ function sendmail(mailOptions){
     });
 }
 
-//mysql connection
+//mysql connection with credentials
 var connection = mysql.createConnection({
    	host:"localhost",
     user: 'shashank',
