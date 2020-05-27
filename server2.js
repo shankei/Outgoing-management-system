@@ -180,7 +180,7 @@ app.get('/getdetails', function (req, res) {
 			res.end(err);
 		} 
 		else {
-			logstore('/getdetails','GET','Get student details of'+ result[0]['name']);
+			logstore('/getdetails','GET','Get student details');
 			console.log('all details picked up picked up for this student');
 				res.send(result);
 		}
